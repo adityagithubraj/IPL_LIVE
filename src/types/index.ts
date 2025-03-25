@@ -53,3 +53,8 @@ export interface Dream11Prediction {
   suggestedTeam: Player[];
   analysis: string;
 }
+
+
+//origin  https://github.com/adityagithubraj/IPL_LIVE.git (fetch)
+//origin  https://github.com/adityagithubraj/IPL_LIVE.git (push)
+//git remote add origin https://github.com/adityagithubraj/IPL_LIVE.git
