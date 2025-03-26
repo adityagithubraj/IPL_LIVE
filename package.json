@@ -1,10 +1,4 @@
 {
-
-
-  
-
-
-
   "homepage": "https://adityagithubraj.github.io/IPL_LIVE",
   "name": "ipl-website",
   "private": true,
@@ -15,8 +9,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+     "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+    
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.1",
